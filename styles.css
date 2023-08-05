@@ -1,0 +1,118 @@
+.navbar{
+    display: flex;
+    background:#111 ;
+    color: white;
+    height: 100px;
+    border-bottom-left-radius: 40px;
+    
+}
+.navbar > h3{
+    margin-left: 20px;
+
+}
+body{
+    /* background-color: rgb(235, 236, 235); */
+}
+.navbar > ul{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    right: 50px;
+}
+.navbar > ul > li{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+ul{
+    list-style: none;
+}
+.profile-pic{
+    /* display: block; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    color: white;
+    background-color: #111;
+    padding: 6px;
+    border-radius: 30px;
+}
+.profile-pic > img{
+    height: 200px;
+    
+}
+.section > h2{
+    text-align: center;
+    color: green;
+}
+.section{
+    margin: 30px;
+    font-size: medium;
+    padding: 40px;
+    text-align: center;
+    
+}
+.section >p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.buttons{
+    color: white;
+    /* margin-top: 100px; */
+    padding: 20px;
+    background-color: #111;
+    border-radius: 30px;
+}
+.section > a {
+    margin-top: 10px;
+}
+footer{
+    
+    height: 200px;
+    background: #111;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 30px;
+}
+
+.end{
+    bottom: 0;
+}
+.container{
+    background-color: antiquewhite;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    
+}
+
+.container > h2{
+   color: green;
+}
+.container > p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.social-link >a{
+    margin: 10px;
+    padding: 6px;
+}
+.lists{
+    margin: 10px;
+    padding: 20px;
+     
+    
+}
